@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
 import imagesApi from './components/imagesApi/imagesApi';
 import Searchbar from './components/Searchbar/Searchbar';
@@ -36,7 +35,6 @@ export default function App() {
     setShowModal(!showModal);
   };
   const fetchHits = () => {
-   // const { searchQuery, currentPage } = this.state;
     const options = { searchQuery, currentPage };
     setIsLoading(true);
     imagesApi
