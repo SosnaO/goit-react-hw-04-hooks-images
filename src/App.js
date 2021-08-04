@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
 import imagesApi from './components/imagesApi/imagesApi';
 import Searchbar from './components/Searchbar/Searchbar';
